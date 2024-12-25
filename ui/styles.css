@@ -1,0 +1,28 @@
+/* Custom styles for Streamlit app */
+body {
+    background-color: #f4f4f9;
+}
+
+h1, h2 {
+    color: #4CAF50;
+    font-family: 'Roboto', sans-serif;
+}
+
+.stButton>button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stButton>button:hover {
+    background-color: #45a049;
+}
+
+.stTextInput>input {
+    border: 2px solid #4CAF50;
+    padding: 8px;
+    border-radius: 5px;
+}
